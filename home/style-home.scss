@@ -1,12 +1,6 @@
 @import "../bootstrap/scss/bootstrap";
 
 
-div>input[type=email] {
-    visibility: hidden;
-}
-
-
-
 
 #profile_using {
     margin-bottom: 0;
@@ -22,8 +16,8 @@ div>input[type=email] {
 }
 
 .carousel-control-prev {
-    left: -30px;
-    justify-content: start;
+    /* left: -30px;
+    justify-content: start; */
 }
 
 .carousel-control-next {
