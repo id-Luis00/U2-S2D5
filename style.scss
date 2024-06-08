@@ -3,6 +3,10 @@
 
 
 
+
+
+
+
 #profile_using {
     margin-bottom: 0;
 }
@@ -24,4 +28,58 @@
 .carousel-control-next {
     right: -30px;
     justify-content: end;
+}
+
+
+
+
+footer {
+
+    #btn-footer {
+
+
+        & div {
+
+            & div {
+                border: none;
+
+                &:hover {
+                    /* border: 1px solid scale-color($color: white, $lightness: -60%); */
+                    background-color: scale-color($color: $dark, $lightness: 10%);
+                    transition: background-color .25s;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 766px) {
+
+        #i-footer {
+
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        #btn-footer {
+
+
+            & div {
+
+                display: flex;
+                justify-content: center;
+                gap: 0.5rem;
+
+                padding-block: 0.7rem;
+                border-bottom: 1px solid grey;
+                
+
+
+                & div {
+                    justify-content: space-around;
+                    width: 200px;
+                }
+            }
+        }
+    }
 }

@@ -11986,4 +11986,31 @@ textarea.form-control-lg {
 .carousel-control-next {
   right: -30px;
   justify-content: end;
+}
+
+footer #btn-footer div div {
+  border: none;
+}
+footer #btn-footer div div:hover {
+  /* border: 1px solid scale-color($color: white, $lightness: -60%); */
+  background-color: #343b41;
+  transition: background-color 0.25s;
+}
+@media screen and (max-width: 766px) {
+  footer #i-footer {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+  }
+  footer #btn-footer div {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    padding-block: 0.7rem;
+    border-bottom: 1px solid grey;
+  }
+  footer #btn-footer div div {
+    justify-content: space-around;
+    width: 200px;
+  }
 }/*# sourceMappingURL=style.css.map */
