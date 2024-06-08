@@ -11965,8 +11965,8 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-div > input[type=email] {
-  visibility: hidden;
+body {
+  background-color: #146c43;
 }
 
 #profile_using {
@@ -11990,4 +11990,4 @@ div > input[type=email] {
 .carousel-control-next {
   right: -30px;
   justify-content: end;
-}/*# sourceMappingURL=style-home.css.map */
+}/*# sourceMappingURL=style.css.map */
