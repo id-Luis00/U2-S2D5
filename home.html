@@ -12,110 +12,112 @@
 
 
 
-<body class="bg-dark text-light">
-    <header class="">
-        <nav class="navbar navbar-expand-lg mb-3 bg-dark navbar-dark  ">
-            <div class="container">
-                <a href="https://www.netflix.com" class="navbar-brand"><img
-                        src="./materials/Netflix-assets/assets/netflix_logo.png" alt="logo netflix" width="130"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class=" collapse navbar-collapse " id="navbarSupportedContent">
+<body class="text-bg-dark text-light">
+    <header>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg mb-3 bg-dark navbar-dark  ">
+                <div class="container-fluid">
+                    <a href="https://www.netflix.com" class="navbar-brand"><img
+                            src="./materials/Netflix-assets/assets/netflix_logo.png" alt="logo netflix" width="130"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class=" collapse navbar-collapse " id="navbarSupportedContent">
 
-                    <ul class="navbar-nav me-auto">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link ">Home</a>
-                        </li>
-
-
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">TV Shows</a>
-                        </li>
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link ">Home</a>
+                            </li>
 
 
-                        <li class="nav-item">
-                            <a href="#" class="nav-link ">Movies</a>
-                        </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">TV Shows</a>
+                            </li>
 
-                        <li class="nav-item">
-                            <a href="#" class="nav-link ">Recently Added</a>
-                        </li>
 
-                        <li class="nav-item">
-                            <a href="#" class="nav-link ">My List</a>
-                        </li>
-                    </ul>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link ">Movies</a>
+                            </li>
 
-                    <!-- <form class="d-flex">
-                        <input class="form-control  me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-danger" type="submit">Search</button>
-                    </form> -->
+                            <li class="nav-item">
+                                <a href="#" class="nav-link ">Recently Added</a>
+                            </li>
 
-                    <div class="text-end">
-                        <div class="d-flex align-items-center">
-                            <i class="bi bi-search mx-2"></i>
-                            <p>KIDS</p>
-                            <i class="bi bi-bell mx-2"></i>
-                            <div class="d-flex">
-                                
-                                <div class="dropdown">
-                                    <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <img src="https://www.shutterstock.com/image-vector/nutella-chocolate-jar-kawaii-food-260nw-2408704521.jpg" alt="profile" width="25" height="25">
-                                    </button>
-                                    <ul class="dropdown-menu">
-                                      <li><a class="dropdown-item" href="#">Action</a></li>
-                                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
-                                  </div>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link ">My List</a>
+                            </li>
+                        </ul>
+
+
+                        <!-- <style>
+                            div>input[type=email] {
+                                visibility: hidden;
+                            }
+                        </style> -->
+
+
+                        <div class="text-end">
+                            <div class="d-flex align-items-center">
+
+                                <button class=" d-flex align-items-center   btn  text-light">
+                                    <!-- <div>
+                                        <input type="email" class="form-control border-danger"
+                                            id="exampleFormControlInput1" placeholder="name@example.com">
+                                    </div> -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24"
+                                        viewBox="0 0 24 24" role="img" data-icon="MagnifyingGlassStandard"
+                                        aria-hidden="true" class="search-icon">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10ZM15.6177 17.0319C14.078 18.2635 12.125 19 10 19C5.02944 19 1 14.9706 1 10C1 5.02944 5.02944 1 10 1C14.9706 1 19 5.02944 19 10C19 12.125 18.2635 14.078 17.0319 15.6177L22.7071 21.2929L21.2929 22.7071L15.6177 17.0319Z"
+                                            fill="currentColor"></path>
+                                    </svg>
+                                </button>
+                                <p style="margin-bottom: 0;">KIDS</p> <!-- ------ -->
+                                <i class="bi bi-bell mx-2"></i>
+                                <div class="d-flex">
+
+                                    <div class="dropdown">
+                                        <button class="btn btn-dark dropdown-toggle" type="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            <img src="https://www.shutterstock.com/image-vector/nutella-chocolate-jar-kawaii-food-260nw-2408704521.jpg"
+                                                alt="profile" width="25" height="25">
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="./profile.html">Profile</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
 
+
+                        </div>
 
                     </div>
 
                 </div>
+            </nav>
+        </div>
 
-            </div>
-        </nav>
     </header>
 
 
 
-    <main class="">
-        <div class="container ">
+    <main>
+        <div class=" container-fluid">
 
-            <div class="container">
 
-                <div class="row my-5 ">
-                    <div class="col-3 fs-1">TV Shows</div>
-                    <div class="col ml-0 me-auto dropdown">
 
-                        <a class="btn btn-dark btn-outline-light dropdown-toggle" href="#" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Genres
-                        </a>
 
-                        <ul class="dropdown-menu  ">
-                            <li><a class="dropdown-item " href="#">Action</a></li>
-                            <li><a class="dropdown-item " href="#">Another action</a></li>
-                            <li><a class="dropdown-item " href="#">Something else here</a></li>
-                        </ul>
 
-                    </div>
-                    <div class="col-2">
-                        <button class="btn btn-outline-light"><i class="bi bi-text-left"></i></button>
-                        <button class="btn btn-outline-light"><i class="bi bi-grid-fill"></i></button>
-                    </div>
-                </div>
-            </div>
 
 
             <style>
-                .carousel-control-prev {
+                /* --------- */
+                /* .carousel-control-prev {
                     left: -30px;
                     justify-content: start;
                 }
@@ -123,7 +125,7 @@
                 .carousel-control-next {
                     right: -30px;
                     justify-content: end;
-                }
+                } */
 
                 .nav-link:hover {
                     color: crimson;
@@ -136,7 +138,42 @@
             </style>
 
 
-            <div class=" container mt-5">
+
+            <div class=" container-fluid column mt-5">
+
+
+
+                <div class="d-flex align-items-center justify-content-between mb-5">
+
+                    <div class="d-flex gap-5">
+                        <div class=" fs-2">
+                            <p class="fs-4 mb-0">TV Shows</p>
+                        </div>
+
+                        <div class=" dropdown ">
+
+                            <a class="btn btn-dark btn-outline-light dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Genres
+                            </a>
+
+                            <ul class="dropdown-menu ">
+                                <li><a class="dropdown-item " href="#">Action</a></li>
+                                <li><a class="dropdown-item " href="#">Another action</a></li>
+                                <li><a class="dropdown-item " href="#">Something else here</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <div>
+                        <button class="btn btn-outline-light"><i class="bi bi-text-left"></i></button>
+                        <button class="btn btn-outline-light"><i class="bi bi-grid-fill"></i></button>
+                    </div>
+                </div>
+
+
+                <!-- primo carousel -->
 
 
                 <div id="TV-Shows" class="carousel slide" data-bs-ride="true">
@@ -148,6 +185,7 @@
                         <button type="button" data-bs-target="#TV-Shows" data-bs-slide-to="2"
                             aria-label="Slide 3"></button>
                     </div>
+
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="d-flex flex-nowrap">
@@ -189,6 +227,7 @@
                             </div>
                         </div>
                     </div>
+
                     <button class="carousel-control-prev" type="button" data-bs-target="#TV-Shows" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
@@ -200,8 +239,9 @@
                 </div>
 
 
+                <!-- secondo carousel -->
 
-                <p class="fs-4">Trending Now</p>
+                <p class="fs-4 mt-5 mb-2">Trending Now</p>
 
                 <div id="Trending-Now" class="carousel slide" data-bs-ride="true">
                     <div class="carousel-indicators">
@@ -265,10 +305,12 @@
                     </button>
                 </div>
 
-            </div>
 
-            <div class=" container column mt-5">
-                <p class="fs-4">Watch it Again</p>
+
+
+                <!-- terzo carousel -->
+
+                <p class="fs-4 mt-5 ">Watch it Again</p>
 
                 <div id="Watch-it-Again" class="carousel slide" data-bs-ride="true">
                     <div class="carousel-indicators">
@@ -332,10 +374,10 @@
                     </button>
                 </div>
 
-            </div>
 
-            <div class=" container column mt-5">
-                <p class="fs-4">New Releases</p>
+                <!-- quarto carousel -->
+
+                <p class="fs-4 mt-5">New Releases</p>
 
                 <div id="New-Releases" class="carousel slide" data-bs-ride="true">
                     <div class="carousel-indicators">
@@ -397,7 +439,10 @@
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
+
                 </div>
+
+
 
             </div>
 
@@ -411,8 +456,8 @@
     </main>
 
     <footer>
-        <div class="container my-5">
-            <div class="d-flex flex-column">
+        <div class="container my-5 ">
+            <div class="d-flex flex-column ">
                 <div class="w-100 text-start">
                     <button type="button" class="btn btn-outline-secondary">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -454,18 +499,10 @@
                     </button>
                 </div>
 
-                <div class="container">
-                    <div class="row ">
+                <div class="container ">
+                    <div class="row">
 
-                        <div class="row col-3 container-fluid">
-
-                            <div class="text-start btn text-light">Audio and Subtitles</div>
-                            <div class="text-start btn text-light">Media Center</div>
-                            <div class="text-start btn text-light">Privacy</div>
-                            <div class="text-start btn text-light">Contact Us</div>
-                        </div>
-
-                        <div class="row col-3">
+                        <div class="row col-sm-12 col-md-3 mx-0  ">
 
                             <div class="text-start btn text-light">Audio and Subtitles</div>
                             <div class="text-start btn text-light">Media Center</div>
@@ -473,7 +510,9 @@
                             <div class="text-start btn text-light">Contact Us</div>
                         </div>
 
-                        <div class="row col-3">
+
+
+                        <div class="row col-sm-12 col-md-3 mx-0  ">
 
                             <div class="text-start btn text-light">Audio and Subtitles</div>
                             <div class="text-start btn text-light">Media Center</div>
@@ -481,7 +520,19 @@
                             <div class="text-start btn text-light">Contact Us</div>
                         </div>
 
-                        <div class="row col-3">
+
+
+                        <div class="row col-sm-12 col-md-3 mx-0  ">
+
+                            <div class="text-start btn text-light">Audio and Subtitles</div>
+                            <div class="text-start btn text-light">Media Center</div>
+                            <div class="text-start btn text-light">Privacy</div>
+                            <div class="text-start btn text-light">Contact Us</div>
+                        </div>
+
+
+
+                        <div class="row col-sm-12 col-md-3 mx-0  ">
 
                             <div class="text-start btn text-light">Audio and Subtitles</div>
                             <div class="text-start btn text-light">Media Center</div>
