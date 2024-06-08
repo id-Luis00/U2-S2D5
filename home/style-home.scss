@@ -1,0 +1,32 @@
+@import "../bootstrap/scss/bootstrap";
+
+
+div>input[type=email] {
+    visibility: hidden;
+}
+
+
+
+
+#profile_using {
+    margin-bottom: 0;
+}
+
+.nav-link:hover {
+    color: crimson;
+    transform: scale(1.05);
+    background-color: rgba(211, 211, 211, 0.267);
+    border-radius: 10px;
+    transition: all .6s;
+    z-index: 1;
+}
+
+.carousel-control-prev {
+    left: -30px;
+    justify-content: start;
+}
+
+.carousel-control-next {
+    right: -30px;
+    justify-content: end;
+}
