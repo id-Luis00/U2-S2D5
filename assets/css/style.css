@@ -12017,11 +12017,11 @@ footer #btn-footer div div:hover {
 
 /* profile.html */
 #profile-edit {
-  /*     div .col-9 {
+  /* div .col-9 {
 
-          display: none;
+      display: none;
 
-      } */
+  } */
 }
 #profile-edit div .dropdown a {
   background-color: black;
@@ -12033,6 +12033,32 @@ footer #btn-footer div div:hover {
 }
 #profile-edit div .dropdown ul li a:hover {
   background-color: #343b41;
+}
+
+@media screen and (max-width: 766px) {
+  #btn-footer .d-flex {
+    margin: auto;
+    flex-direction: column;
+    width: 200px;
+  }
+}
+@media screen and (max-width: 1233px) {
+  #btn-footer .btn {
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 927px) {
+  #btn-footer .btn {
+    padding-inline: 5px;
+  }
+}
+#btn-footer button {
+  color: #9ea5ac;
+  padding-inline: 2rem;
+}
+#btn-footer button:hover {
+  color: black;
+  background-color: white;
 }
 
 #profile-name {

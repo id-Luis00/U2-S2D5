@@ -97,6 +97,10 @@ footer {
 #profile-edit {
 
 
+
+
+
+
     div .dropdown {
 
 
@@ -125,7 +129,7 @@ footer {
 
 
 
-/*     div .col-9 {
+    /* div .col-9 {
 
         display: none;
 
@@ -136,6 +140,51 @@ footer {
 
 
 
+}
+
+
+
+#btn-footer {
+
+    @media  screen and (max-width: 766px) {
+
+        & .d-flex {
+            margin: auto;
+            flex-direction: column;
+            width: 200px;
+        }
+        
+    }
+
+    @media  screen and (max-width: 1233px) {
+
+        .btn {
+
+            padding: 10px;
+        }
+        
+    }
+
+    @media  screen and (max-width: 927px) {
+
+        .btn {
+            padding-inline: 5px;
+        }
+        
+    }
+
+
+    
+    button {
+        color: scale-color($color: $secondary, $lightness: 35%);
+        padding-inline: 2rem;
+
+        
+        &:hover {
+            color: black;
+            background-color: white;
+        }
+    }
 }
 
 
