@@ -12013,4 +12013,37 @@ footer #btn-footer div div:hover {
     justify-content: space-around;
     width: 200px;
   }
+}
+
+/* profile.html */
+#profile-edit {
+  /*     div .col-9 {
+
+          display: none;
+
+      } */
+}
+#profile-edit div .dropdown a {
+  background-color: black;
+  border: 2px solid #f8f9fa;
+  color: #f8f9fa;
+}
+#profile-edit div .dropdown ul li a {
+  border: none;
+}
+#profile-edit div .dropdown ul li a:hover {
+  background-color: #343b41;
+}
+
+#profile-name {
+  background-color: #565e64;
+}
+#profile-name::-moz-placeholder {
+  color: #f8f9fa;
+}
+#profile-name::placeholder {
+  color: #f8f9fa;
+}
+#profile-name p {
+  margin-bottom: 0.3rem;
 }/*# sourceMappingURL=style.css.map */
